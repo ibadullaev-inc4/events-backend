@@ -1,7 +1,7 @@
 
 # events-backend
 
-## Start database and create database 'event' 
+## Start postgres and create database 'event' 
 docker-compose up
 ```
 create database events;
