@@ -1,5 +1,13 @@
 
 # events-backend
+
+## Start database and create database 'event' 
+docker-compose up
+```
+create database events;
+```
+
+
 ## Running the app
 
 ```bash
