@@ -4,7 +4,8 @@
 ## Start postgres and create database 'event' 
 docker-compose up
 ```
-create database events;
+psql -U postgres -c 'create database events'
+psql -U postgres -d events < events.sql
 ```
 
 
